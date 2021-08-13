@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'WindSong', cursive;
+    color: #FFFFFF;
+    background: #312633;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Classes flexbox */
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.just-center{
+    justify-content: center;
+}
+.dir-column{
+    flex-direction: column;
+}
+/* Classes flexbox */
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+h1{
+    font-size: 50px;
+}
+.form_main{
+    width: 100%;
+    height: auto;
+}
+.cronometro{
+    width: 250px;
+    font-size: 25px;
+}
+.cronometro>span{
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    width: 200px;
+}
+button{
+    width: 75px;
+    height: 30px;
+    font-family: 'Andada Pro', serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    color: #FFFFFF;
+    background: #312633;
+    transition: .3s;
+}
+button:hover{
+    cursor: pointer;
+    background: #5d3b63;
+}

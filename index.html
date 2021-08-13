@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap" rel="stylesheet">
+      <title>Cronômetro</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="container d-flex align-center dir-column">
+         <h1>Cronômetro</h1>
+         <form name="form_main" class="form_main d-flex dir-column align-center">
+            <div class="cronometro d-flex just-center align-center">
+               <span id="hour">00</span>:
+               <span id="minutes">00</span>:
+               <span id="seconds">00</span>:
+               <span id="miliseconds">000</span>
+            </div>
+            <div class="options">
+               <button type="button" id="start">Start</button>
+               <button type="button" id="stop">Stop</button>
+               <button type="button" id="reset">Reset</button>
+            </div>
+         </form>
+      </div>
+   </body>
+   <script src="script.js"></script>
+</html>
